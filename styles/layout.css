@@ -1,0 +1,26 @@
+#app {
+  display: grid; /* Use CSS Grid for layout */
+  grid-template-columns: 51.25% 48.75%; /* Define column widths */
+  
+  height: 100vh; /* Full viewport height */
+  overflow: hidden;
+}
+
+main {
+  overflow: auto; /* Enable scrolling for main content */
+  padding: 4rem; /* Add padding around the main content */
+
+  & .main-container {
+    max-width: 33rem; /* Set a maximum width for the main container */
+    margin-left: auto; /* Center the main container horizontally */
+  }
+}
+
+aside {
+  background-color: var(--surface-secondary); /* Set background color for aside */
+  padding: 4rem; /* Add padding around the aside content */
+
+  & .aside-container {
+    max-width: 33rem; /* Set a maximum width for the aside container */
+  }
+}
