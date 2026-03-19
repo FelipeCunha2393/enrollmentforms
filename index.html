@@ -22,6 +22,51 @@
         </div>
         <h1>Enrolment Form</h1>
         <p>Please fill out the information below to enroll your child at Tomorrow Stars Preschool.</p>
+
+        <form>
+          <fieldset class="child-info">
+            <legend>Child Information</legend>
+            <div class="input-wrapper">
+              <label for="fullname">Full Name</label>
+              <input
+              name="fullname" 
+              id="fullname"
+              type="text"
+              placeholder="Enter your child's full name">
+            </div>
+
+            <div class="input-wrapper">
+              <label for="birth">Birth Date</label>
+              <input
+              name="birth" 
+              id="birth"
+              type="date">
+            </div>
+
+            <div class="select-wrapper">
+              <label for="gender">Gender</label>
+              <select name="gender" id="gender">
+                <option value="female">Female</option>
+                <option value="male">Male</option>
+                <option value="N/A">I rather not to say</option>
+              </select>
+            </div>
+
+            <div class="textarea-wrapper"> 
+              <label for="medical-info">Medical Information</label>
+              <textarea name="medical-info" id="medical-info"
+                cols=""30 rows="10"
+                placeholder="Does the child have any medical condition that the daycare should be aware of?"
+                ></textarea>
+            </div>
+
+            <div class="droparea-wrapper">
+              <input type="file" name="birth-file" id="birth-file">
+              <img src="assets/icons/cloud-upload.svg" alt="cloud upload icon">
+              <p>Select the files</p>
+            </div>
+          </fieldset>
+        </form>
       </div>
     </main>
 
