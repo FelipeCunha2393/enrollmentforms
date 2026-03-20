@@ -42,4 +42,20 @@ select {
   background: url(../../assets/icons/arrow-down-01.svg)
   no-repeat calc(100% - 1rem);/* Add a dropdown arrow icon */
 }
-  
+
+.address .flex {
+  gap: 1.25rem;
+}
+
+.input-wrapper:has([disabled]) {
+  opacity: 0.5; /* Reduce opacity to indicate disabled state */
+}
+
+input {
+  &[disabled] {
+    background-color: var(--surface-disabled); /* Change background color for disabled inputs */
+
+    border: 1px solid var(--stroke-default);
+    color: var(--text-primary);
+  }
+}
