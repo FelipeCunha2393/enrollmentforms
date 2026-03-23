@@ -1,0 +1,85 @@
+input, textarea, select {
+  appearance: none;/* Remove default styling */
+
+  width: 100%;
+  border-radius: 0.5rem;
+  border: 1px solid var(--stroke-default);
+  padding: 0.75rem 1rem; /* Adjust padding as needed */
+  font: var(--text);
+}
+
+label {
+  font: var(--text-sm);
+  color: var(--text-secondary);
+
+  display: block;/* Ensure labels take up the full width and stack above inputs */
+  margin-bottom: 0.25rem;
+}
+
+input:focus,
+textarea:focus,
+select:focus{
+  outline: 0.25rem solid var(--surface-secondary);
+  border: 0.125rem solid var(--stroke-highlight);
+}/* Add focus styles for better accessibility */
+
+input[type="date"] {
+  position: relative;
+
+  &::-webkit-calendar-picker-indicator {
+    position: absolute;
+    background: url(../../assets/icons/calendar-03.svg)
+    center;
+    right: 1rem;
+    width: 1.25rem;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}/* Add a calendar icon to date inputs */
+
+select {
+  background: url(../../assets/icons/arrow-down-01.svg)
+  no-repeat calc(100% - 1rem);/* Add a dropdown arrow icon */
+}
+
+.address .flex {
+  gap: 1.25rem;
+}
+
+.input-wrapper:has([disabled]) {
+  opacity: 0.5; /* Reduce opacity to indicate disabled state */
+}
+
+input {
+  &[disabled] {
+    background-color: var(--surface-disabled); /* Change background color for disabled inputs */
+
+    border: 1px solid var(--stroke-default);
+    color: var(--text-primary);
+  }
+
+  &:invalid {
+    border: .25rem solid var(--semantic-error)
+  }
+
+  & + small {
+    font: var(--text-sm);
+    color: #78716C;
+    display: inline-block;
+    margin-top: 0.25rem;
+  }
+
+  &:[required] + .error {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+
+    font: var(--text-sm);
+    color: var(--semantic-error);
+    margin-top: 0.25rem;
+  }
+
+  &:valid + .error {
+    display: none;
+  }
+}
