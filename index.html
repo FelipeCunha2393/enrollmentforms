@@ -110,6 +110,33 @@
             </div>
 
           </fieldset>
+
+          <fieldset class="gardian">
+            <legend>Guardian Information</legend>
+
+            <div class="input-wrapper">
+              <label for="gardian">Gardian Name</label>
+              <input type="text" name="gardian" id="gardian">
+              <small>Legal Guardian and Emergency Contact</small>
+            </div>
+
+            <div class="input-wrapper">
+              <label for="phone">Phone</label>
+              <input type="tel" name="phone" id="phone" 
+              placeholder="+353 85 160 8507">
+            </div>
+
+            <div class="input-wrapper">
+              <label for="mail">Email</label>
+              <input type="email" name="mail" id="mail" 
+              placeholder="example@email.com" required>
+
+              <div class="error">
+                <img src="assets/icons/alert-circle.svg" alt="Alert circle icon">
+                <span>Enter a valid email address</span>
+              </div>
+            </div>
+          </fieldset>
         </form>
       </div>
     </main>
