@@ -7,37 +7,39 @@ Enrollment Form
 
 A responsive and modern enrollment form built with HTML and CSS. This project focuses on creating a clean user interface for collecting user information, including study preferences such as shift selection (morning or evening).
 
-✨ Features
-📱 Responsive layout using CSS Grid
-🎨 Custom styled radio buttons with icons
-🧩 Organized form structure using semantic HTML (fieldset, legend)
-💡 Clean and minimal UI design
-⚡ Lightweight (no frameworks)
-🛠️ Technologies
-HTML5
-CSS3 (Grid & Flexbox)
-📸 Preview
+✨ Features <br>
+  📱 Responsive layout using CSS Grid<br>
+  🎨 Custom styled radio buttons with icons<br>
+  🧩 Organized form structure using semantic HTML (fieldset, legend)<br>
+  💡 Clean and minimal UI design<br>
+  ⚡ Lightweight (no frameworks)<br>
+<br>
+🛠️ Technologies<br>
+  HTML5<br>
+  CSS3 (Grid & Flexbox)<br>
+<br>
+📸 Preview<br>
+  https://felipecunha2393.github.io/enrollmentforms/<br>
+<br>
+The form allows users to:<br>
+  Select study shift (Morning / Evening)<br>
+  Interact with visually enhanced radio options<br>
+  Experience a structured and user-friendly layout<br>
+<br>
+🚀 Purpose<br>
+  This project was created to practice:<br>
 
-The form allows users to:
-
-Select study shift (Morning / Evening)
-Interact with visually enhanced radio options
-Experience a structured and user-friendly layout
-🚀 Purpose
-
-This project was created to practice:
-
-CSS Grid layout
-Form styling and accessibility
-Clean UI component structure
-📂 How to use
-
-Clone the repository:
-
-git clone https://github.com/FelipeCunha2393/enrollmentforms.git
-Open index.html in your browser
-📌 Future Improvements
-Add form validation
-Improve accessibility (ARIA labels)
-Add JavaScript interactivity
-Connect to a backend service
+CSS Grid layout<br>
+  Form styling and accessibility<br>
+  Clean UI component structure<br>
+<br>
+📂 How to use<br>
+  Clone the repository:<br>
+  git clone https://github.com/FelipeCunha2393/enrollmentforms.git<br>
+  Open index.html in your browser<br>
+  <br>
+📌 Future Improvements<br>
+  Add form validation<br>
+  Improve accessibility (ARIA labels)<br>
+  Add JavaScript interactivity<br>
+  Connect to a backend service<br>
